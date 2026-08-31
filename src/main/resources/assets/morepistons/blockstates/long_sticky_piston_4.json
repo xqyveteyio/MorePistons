@@ -1,0 +1,22 @@
+{
+  "multipart": [
+    { "when": { "extension": "0", "extended": "false", "facing": "down" }, "apply": { "model": "minecraft:block/sticky_piston", "x": 90 } },
+    { "when": { "extension": "0", "extended": "true", "facing": "down" }, "apply": { "model": "minecraft:block/piston_base", "x": 90 } },
+    { "when": { "extension": "1|2|3|4|5|6|7|8", "facing": "down" }, "apply": { "model": "minecraft:block/piston_base", "x": 90 } },
+    { "when": { "extension": "0", "extended": "false", "facing": "east" }, "apply": { "model": "minecraft:block/sticky_piston", "y": 90 } },
+    { "when": { "extension": "0", "extended": "true", "facing": "east" }, "apply": { "model": "minecraft:block/piston_base", "y": 90 } },
+    { "when": { "extension": "1|2|3|4|5|6|7|8", "facing": "east" }, "apply": { "model": "minecraft:block/piston_base", "y": 90 } },
+    { "when": { "extension": "0", "extended": "false", "facing": "north" }, "apply": { "model": "minecraft:block/sticky_piston" } },
+    { "when": { "extension": "0", "extended": "true", "facing": "north" }, "apply": { "model": "minecraft:block/piston_base" } },
+    { "when": { "extension": "1|2|3|4|5|6|7|8", "facing": "north" }, "apply": { "model": "minecraft:block/piston_base" } },
+    { "when": { "extension": "0", "extended": "false", "facing": "south" }, "apply": { "model": "minecraft:block/sticky_piston", "y": 180 } },
+    { "when": { "extension": "0", "extended": "true", "facing": "south" }, "apply": { "model": "minecraft:block/piston_base", "y": 180 } },
+    { "when": { "extension": "1|2|3|4|5|6|7|8", "facing": "south" }, "apply": { "model": "minecraft:block/piston_base", "y": 180 } },
+    { "when": { "extension": "0", "extended": "false", "facing": "up" }, "apply": { "model": "minecraft:block/sticky_piston", "x": 270 } },
+    { "when": { "extension": "0", "extended": "true", "facing": "up" }, "apply": { "model": "minecraft:block/piston_base", "x": 270 } },
+    { "when": { "extension": "1|2|3|4|5|6|7|8", "facing": "up" }, "apply": { "model": "minecraft:block/piston_base", "x": 270 } },
+    { "when": { "extension": "0", "extended": "false", "facing": "west" }, "apply": { "model": "minecraft:block/sticky_piston", "y": 270 } },
+    { "when": { "extension": "0", "extended": "true", "facing": "west" }, "apply": { "model": "minecraft:block/piston_base", "y": 270 } },
+    { "when": { "extension": "1|2|3|4|5|6|7|8", "facing": "west" }, "apply": { "model": "minecraft:block/piston_base", "y": 270 } }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "morepistons",
+  "version": "${version}",
+  "name": "More Pistons",
+  "description": "Long pistons and long sticky pistons for Minecraft 1.20.1.",
+  "authors": ["Gollum Team", "MorePistons contributors"],
+  "contact": {
+    "sources": "https://github.com/GollumTeam/MorePistons"
+  },
+  "license": "GPL-2.0-only",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.gollum.morepistons.MorePistons"],
+    "fabric-gametest": ["com.gollum.morepistons.gametest.LongPistonGameTests"]
+  },
+  "mixins": [
+    "morepistons.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.13",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}

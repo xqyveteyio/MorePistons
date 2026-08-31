@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "morepistons:long_piston_7" },
+    { "item": "minecraft:slime_ball" }
+  ],
+  "result": { "item": "morepistons:long_sticky_piston_7", "count": 1 }
+}

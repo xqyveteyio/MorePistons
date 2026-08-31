@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.gollum.morepistons.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "client.PistonHeadRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

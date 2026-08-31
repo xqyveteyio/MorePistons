@@ -1,0 +1,50 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Minecraft Client",
+      "request": "launch",
+      "preLaunchTask": "Prepare Minecraft Client",
+      "cwd": "${workspaceFolder}/run",
+      "console": "integratedTerminal",
+      "stopOnEntry": false,
+      "mainClass": "net.fabricmc.devlaunchinjector.Main",
+      "classPaths": [
+        "$Auto",
+        "${workspaceFolder}/build/classes/java/main",
+        "${workspaceFolder}/build/resources/main"
+      ],
+      "vmArgs": "-Dfabric.dli.config\u003d/home/keyboard/Documents/GitHub/MorePistons/.gradle/loom-cache/launch.cfg -Dfabric.dli.env\u003dclient -Dfabric.dli.main\u003dnet.fabricmc.loader.impl.launch.knot.KnotClient",
+      "args": "",
+      "env": {},
+      "projectName": "MorePistons"
+    },
+    {
+      "type": "java",
+      "name": "Game Test",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/build/gametest",
+      "console": "integratedTerminal",
+      "stopOnEntry": false,
+      "mainClass": "net.fabricmc.devlaunchinjector.Main",
+      "vmArgs": "-Dfabric.dli.config\u003d/home/keyboard/Documents/GitHub/MorePistons/.gradle/loom-cache/launch.cfg -Dfabric.dli.env\u003dserver -Dfabric-api.gametest -Dfabric-api.gametest.report-file\u003d/home/keyboard/Documents/GitHub/MorePistons/build/gametest-results.xml -Dfabric.dli.main\u003dnet.fabricmc.loader.impl.launch.knot.KnotServer",
+      "args": "nogui",
+      "env": {},
+      "projectName": "MorePistons"
+    },
+    {
+      "type": "java",
+      "name": "Minecraft Server",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/run",
+      "console": "integratedTerminal",
+      "stopOnEntry": false,
+      "mainClass": "net.fabricmc.devlaunchinjector.Main",
+      "vmArgs": "-Dfabric.dli.config\u003d/home/keyboard/Documents/GitHub/MorePistons/.gradle/loom-cache/launch.cfg -Dfabric.dli.env\u003dserver -Dfabric.dli.main\u003dnet.fabricmc.loader.impl.launch.knot.KnotServer",
+      "args": "nogui",
+      "env": {},
+      "projectName": "MorePistons"
+    }
+  ]
+}

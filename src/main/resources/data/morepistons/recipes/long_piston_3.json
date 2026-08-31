@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "morepistons:long_piston_2" },
+    { "item": "minecraft:iron_ingot" }
+  ],
+  "result": { "item": "morepistons:long_piston_3", "count": 1 }
+}

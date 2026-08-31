@@ -1,0 +1,32 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "minecraft:block/piston_side",
+    "rod": "minecraft:block/piston_side"
+  },
+  "elements": [
+    {
+      "from": [6, 6, 0],
+      "to": [10, 10, 16],
+      "faces": {
+        "down": { "texture": "#rod" },
+        "up": { "texture": "#rod" },
+        "north": { "texture": "#rod" },
+        "south": { "texture": "#rod" },
+        "west": { "texture": "#rod" },
+        "east": { "texture": "#rod" }
+      }
+    },
+    {
+      "from": [6, 6, 16],
+      "to": [10, 10, 20],
+      "faces": {
+        "down": { "uv": [0, 0, 4, 4], "texture": "#rod" },
+        "up": { "uv": [0, 0, 4, 4], "texture": "#rod" },
+        "south": { "uv": [6, 6, 10, 10], "texture": "#rod" },
+        "west": { "uv": [0, 0, 4, 4], "texture": "#rod" },
+        "east": { "uv": [0, 0, 4, 4], "texture": "#rod" }
+      }
+    }
+  ]
+}

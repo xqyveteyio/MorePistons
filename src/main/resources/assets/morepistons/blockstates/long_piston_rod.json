@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=down": { "model": "morepistons:block/long_piston_rod", "x": 90 },
+    "facing=east": { "model": "morepistons:block/long_piston_rod", "y": 90 },
+    "facing=north": { "model": "morepistons:block/long_piston_rod" },
+    "facing=south": { "model": "morepistons:block/long_piston_rod", "y": 180 },
+    "facing=up": { "model": "morepistons:block/long_piston_rod", "x": 270 },
+    "facing=west": { "model": "morepistons:block/long_piston_rod", "y": 270 }
+  }
+}
